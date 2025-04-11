@@ -17,46 +17,49 @@ h1 {
   text-align: center;
   font-size: 25px;
   font-family: arial;
-  margin-top: 25px;
+  margin-top: 5px;
   color: aqua;
-  text-shadow: 2px 2px 6px black;
+  text-shadow: 2px 2px 6px;
 }
 
-p {
-  text-align: center;
-  color: white;
+a img {
+  box-shadow: 2px 2px 25px 2px red;
 }
 
-.content-all{
+a img:hover {
+  box-shadow: 2px 2px 25px 2px green;
+}
+
+.content-all {
   width: 200px;
   margin: auto;
   perspective: 1000px;
   position: relative;
-  margin-top: 50px;
+  margin-top: 5px;
 }
 
-.content-carrusel{
+.content-carrusel {
   width: 100%;
   position: absolute;
-  animation: rotar 50s infinite linear;
+  animation: rotar 100s infinite linear;
   transform-style: preserve-3d;
 }
 
-.content-carrusel:hover{
+.content-carrusel:hover {
   animation-play-state: paused;
   cursor: pointer;
 }
 
-.content-carrusel figure{
+.content-carrusel figure {
   width: 60%;
   height: 100px;
   overflow: hidden;
   position: absolute;
-  box-shadow: 0px 0px 20px 0px black;
+  box-shadow: 0px 0px 25px 0px white;
   transition: all 250ms;
 }
 
-.content-carrusel figure:hover{
+.content-carrusel figure:hover {
   box-shadow: 0px 0px 0px 0px black;
   transition: all 250ms;
   motion-rotation: reverse;
