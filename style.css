@@ -81,18 +81,18 @@ a img:hover {
 .content-carrusel figure:nth-child(14){transform: rotateY(334.11deg) translateZ(300px);}
 .content-carrusel figure:nth-child(15){transform: rotateY(359.81deg) translateZ(300px);}
 
-.content-carrusel img{
+.content-carrusel img {
   width: 100%;
   transition: all 250ms;
 }
 
-.content-carrusel img:hover{
+.content-carrusel img:hover {
   transform: scale(1.5);
   transition: all 250ms;
 }
 
 
-@keyframes rotar{
+@keyframes rotar {
   from{
       transform: rotateY(0deg);
   }to{
